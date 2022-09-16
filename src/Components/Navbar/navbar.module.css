@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #373867;
+    height: 100px;
+    flex-direction: column;
+    flex: 2;
+  }
+
+  .appName {
+    background: #232f3e;
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .userContainer {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  .userName{
+    width: 100%;
+    align-self: center;
+  }
+  
+  .profileImg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+    margin-right: 3%;
+  }
+  
+  .profileImg img{
+      width: 100%;
+      border-radius: 50%;
+  }
+  
+  .rutes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    list-style-type: none;
+  }
+  
+  .rutes > li > a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+  }
+  .rutes > li > a::before {
+    color: white;
+    margin-right: 5px;
+    content: '⋄';
+  }
+  .rutes > li > a:hover {
+    color: rgba(255, 255, 255, 0.354);
+    margin-left: 10px;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+  }
+  
